@@ -1,1 +1,2 @@
-sudo apt install -y docker.io
+#!/bin/bash
+touch /var/foo.txt
