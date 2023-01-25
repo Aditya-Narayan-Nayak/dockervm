@@ -1,2 +1,4 @@
 #!/bin/bash
-touch /var/foo.txt
+sudo apt update -y
+sudo apt install -y docker.io
+sudo usermod -aG docker $USER
